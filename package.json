@@ -15,10 +15,10 @@
     "@remix-run/node": "1.6.8"
   },
   "devDependencies": {
-    "@azure/functions": "^3.2.0",
-    "@types/supertest": "^2.0.12",
-    "node-mocks-http": "^1.11.0",
-    "supertest": "^6.2.4"
+    "@azure/functions": "3.2.0",
+    "@types/supertest": "2.0.12",
+    "node-mocks-http": "1.11.0",
+    "supertest": "6.2.4"
   },
   "peerDependencies": {
     "@azure/functions": "^3.0.0"
