@@ -26,7 +26,7 @@ jobs:
         run: git apply packages/remix-azure-functions/remix.patch
 
       - name: ⎔ Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v5
         with:
           node-version-file: ".nvmrc"
           cache: "yarn"
